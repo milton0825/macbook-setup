@@ -6,3 +6,7 @@
    ```
    xcode-select --install
    ```
+1. Run:
+   ```
+   sh -c "$(curl -fsSL https://raw.githubusercontent.com/milton0825/macbook-setup/master/setup.sh)"
+   ```
