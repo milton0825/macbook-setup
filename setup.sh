@@ -10,6 +10,8 @@ else
   sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 fi
 
+PATH="${PATH}:/opt/homebrew/bin"
+
 echo "Setting up homebrew"; 
 if test ! $(which brew); then
   echo "Installing Homebrew...";
