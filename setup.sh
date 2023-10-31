@@ -10,3 +10,7 @@ if test ! $(which brew); then
 else
   echo "Homebrew is already installed...";
 fi
+# TODO: add this two lines to .zprofile, maybe this should live in dotfiles repo.
+# (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/ctsai/.zprofile
+# eval "$(/opt/homebrew/bin/brew shellenv)"
+    
