@@ -22,3 +22,5 @@ fi
 # TODO: add this two lines to .zprofile, maybe this should live in dotfiles repo.
 # (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/ctsai/.zprofile
 # eval "$(/opt/homebrew/bin/brew shellenv)"
+
+brew update
