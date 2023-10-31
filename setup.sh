@@ -24,5 +24,5 @@ fi
 # eval "$(/opt/homebrew/bin/brew shellenv)"
 
 brew update
-
+brew install git
 
