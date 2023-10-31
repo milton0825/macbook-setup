@@ -14,3 +14,5 @@ fi
 # (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/ctsai/.zprofile
 # eval "$(/opt/homebrew/bin/brew shellenv)"
     
+brew update
+
