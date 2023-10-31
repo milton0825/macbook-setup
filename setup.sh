@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
--e
+set -e
 
 # Install homebrew
 echo "Checking if Homebrew is already installed..."; 
