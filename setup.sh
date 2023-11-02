@@ -16,13 +16,13 @@ echo "Setting up homebrew";
 if test ! $(which brew); then
   echo "Installing Homebrew..."
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-# TODO: add this two lines to .zprofile, maybe this should live in dotfiles repo.
-# (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/ctsai/.zprofile
-# eval "$(/opt/homebrew/bin/brew shellenv)"
+  # We also have this line in .zprofile
+  eval "$(/opt/homebrew/bin/brew shellenv)"
 else
   echo "Homebrew is already installed..."
 fi
 
 brew update
-brew install git
+brew install git tmux
 
+# TODO: clone dotfiles and setup
