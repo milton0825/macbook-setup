@@ -15,3 +15,9 @@
    ```
    sh -c "$(curl -fsSL https://raw.githubusercontent.com/milton0825/macbook-setup/master/setup.sh)"
    ```
+1. Setup dotfiles:
+   ```
+   git clone git@github.com:milton0825/dotfiles.git
+   cd dotfiles
+   ./setup.sh
+   ```

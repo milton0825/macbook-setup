@@ -25,4 +25,11 @@ fi
 brew update
 brew install git tmux
 
+# Command line tools
+brew install fzf jq the_silver_searcher htop
+
+# k8s
+brew install kubectl kubectx
+
+
 # TODO: clone dotfiles and setup
